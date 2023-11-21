@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "themetip",
+	"version": "${version}",
+	"name": "themetip",
+	"description": "Customize your tooltips!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"sources": "https://github.com/marie0llie/themetip"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/themetip/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gay.marie_the.Themetip"
+		]
+	},
+	"mixins": [
+		"themetip.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"yet_another_config_lib_v3": "*"
+	},
+}
