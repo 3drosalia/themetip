@@ -5,7 +5,7 @@
 	"name": "themetip",
 	"description": "Customize your tooltips!",
 	"authors": [
-		"Me!"
+		"marie0llie"
 	],
 	"contact": {
 		"sources": "https://github.com/marie0llie/themetip"
@@ -15,7 +15,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"gay.marie_the.Themetip"
+			"gay.marie_the.themetip.Themetip"
+		],
+		"modmenu": [
+			"gay.marie_the.themetip.compat.ModMenuIntegration"
 		]
 	},
 	"mixins": [
@@ -26,5 +29,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"yet_another_config_lib_v3": "*"
-	},
+	}
 }
