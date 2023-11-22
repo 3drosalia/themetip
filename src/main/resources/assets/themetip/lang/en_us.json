@@ -2,12 +2,15 @@
   "yacl3.config.themetip:config.category.colors": "Themetip Config",
   "yacl3.config.themetip:config.category.colors.group.border": "Border",
   "yacl3.config.themetip:config.primaryColor": "Primary",
-  "yacl3.config.themetip:config.primaryColor.desc": "Primary border color",
+  "yacl3.config.themetip:config.primaryColor.desc": "Primary tooltip border color",
   "yacl3.config.themetip:config.secondaryColor": "Secondary",
-  "yacl3.config.themetip:config.secondaryColor.desc": "Secondary border color",
-  "yacl3.config.themetip:config.gradient.desc": "Enable gradient (Secondary)",
+  "yacl3.config.themetip:config.secondaryColor.desc": "Secondary tooltip border color",
+  "yacl3.config.themetip:config.gradient": "Gradient",
+  "yacl3.config.themetip:config.gradient.desc": "Enable tooltip border gradient",
+  "yacl3.config.themetip:config.category.colors.group.background": "Background",
+  "yacl3.config.themetip:config.backgroundColor": "Background",
+  "yacl3.config.themetip:config.backgroundColor.desc": "Tooltip background color",
   "yacl3.config.themetip:config.category.colors.group.misc": "Miscellaneous",
   "yacl3.config.themetip:config.importantSetting": "Awesomeness Detection",
-  "yacl3.config.themetip:config.importantSetting.desc": "Awesomeness Detection",
-  "gay.marie_the.themetip.github": "Github: https://github.com/marie0llie/themetip"
+  "yacl3.config.themetip:config.importantSetting.desc": "Lets Marie know that you are really awesome!"
 }

@@ -31,38 +31,31 @@ public class ThemetipConfig {
     private static final String misc = "misc";
 
     @AutoGen(category = mainConfig, group = tooltipBorder)
-    @ColorField(allowAlpha = false)
+    @ColorField(allowAlpha = true)
     @SerialEntry
-    public Color primaryColor = new Color(0x5000ff);
+    public static Color primaryColor = new Color(0x5000ff50);
     // 5000ff
 
     @AutoGen(category = mainConfig, group = tooltipBorder)
     @MasterTickBox(value = "secondaryColor")
     @SerialEntry
-    public boolean gradient = true;
+    public static boolean gradient = true;
 
     @AutoGen(category = mainConfig, group = tooltipBorder)
-    @ColorField(allowAlpha = false)
+    @ColorField(allowAlpha = true)
     @SerialEntry
-    public Color secondaryColor = new Color(0x28007f);
+    public static Color secondaryColor = new Color(0x28007f50);
     // 28007f
 
     @AutoGen(category = mainConfig, group = tooltipBackground)
-    @ColorField(allowAlpha = false)
+    @ColorField(allowAlpha = true)
     @SerialEntry
-    public Color backgroundColor = new Color(0x100010);
+    public static Color backgroundColor = new Color(0x100010FF);
 
     @AutoGen(category = mainConfig, group = misc)
     @MasterTickBox(value = "importantSetting")
     @SerialEntry
     public boolean importantSetting = true;
-
-    @AutoGen(category = mainConfig, group = misc)
-    @Label
-    @SerialEntry
-    public Text githubButton = Text.translatable("gay.marie_the.themetip.github");
-
-
 
 
     public static final ConfigClassHandler<ThemetipConfig> HANDLER = ConfigClassHandler.createBuilder(ThemetipConfig.class)
