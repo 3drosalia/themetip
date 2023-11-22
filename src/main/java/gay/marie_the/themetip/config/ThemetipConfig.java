@@ -33,7 +33,7 @@ public class ThemetipConfig {
     @AutoGen(category = mainConfig, group = tooltipBorder)
     @ColorField(allowAlpha = true)
     @SerialEntry
-    public static Color primaryColor = new Color(0x5000ff50);
+    public static Color primaryColor = new Color(0x505000ff);
     // 5000ff
 
     @AutoGen(category = mainConfig, group = tooltipBorder)
@@ -44,13 +44,13 @@ public class ThemetipConfig {
     @AutoGen(category = mainConfig, group = tooltipBorder)
     @ColorField(allowAlpha = true)
     @SerialEntry
-    public static Color secondaryColor = new Color(0x28007f50);
+    public static Color secondaryColor = new Color(0x5028007f);
     // 28007f
 
     @AutoGen(category = mainConfig, group = tooltipBackground)
     @ColorField(allowAlpha = true)
     @SerialEntry
-    public static Color backgroundColor = new Color(0x100010FF);
+    public static Color backgroundColor = new Color(0xFF100010);
 
     @AutoGen(category = mainConfig, group = misc)
     @MasterTickBox(value = "importantSetting")
