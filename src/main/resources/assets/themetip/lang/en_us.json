@@ -1,16 +1,19 @@
 {
   "yacl3.config.themetip:config.category.colors": "Themetip Config",
-  "yacl3.config.themetip:config.category.colors.group.border": "Border",
-  "yacl3.config.themetip:config.primaryColor": "Primary",
-  "yacl3.config.themetip:config.primaryColor.desc": "Primary tooltip border color",
-  "yacl3.config.themetip:config.secondaryColor": "Secondary",
-  "yacl3.config.themetip:config.secondaryColor.desc": "Secondary tooltip border color",
+  "yacl3.config.themetip:config.category.colors.group.basic": "Basic Settings",
+  "yacl3.config.themetip:config.thickEdges": "Thickened Edges",
+  "yacl3.config.themetip:config.thickEdges.desc": "Enables the extra pixel on the outside of the border.\n\n(Default: True)",
   "yacl3.config.themetip:config.gradient": "Gradient",
-  "yacl3.config.themetip:config.gradient.desc": "Enable tooltip border gradient",
-  "yacl3.config.themetip:config.category.colors.group.background": "Background",
+  "yacl3.config.themetip:config.gradient.desc": "Enable tooltip border gradient.\n\n(Default: True)",
+  "yacl3.config.themetip:config.category.colors.group.border": "Border Settings",
+  "yacl3.config.themetip:config.primaryColor": "Primary",
+  "yacl3.config.themetip:config.primaryColor.desc": "Primary tooltip border color.\n\n(Default: #5000FF50)",
+  "yacl3.config.themetip:config.secondaryColor": "Secondary",
+  "yacl3.config.themetip:config.secondaryColor.desc": "Secondary tooltip border color.\n\n(Default: #28007F50)",
+  "yacl3.config.themetip:config.category.colors.group.background": "Background Settings",
   "yacl3.config.themetip:config.backgroundColor": "Background",
-  "yacl3.config.themetip:config.backgroundColor.desc": "Tooltip background color",
+  "yacl3.config.themetip:config.backgroundColor.desc": "Tooltip background color.\n\n(Default: #100010F0)",
   "yacl3.config.themetip:config.category.colors.group.misc": "Miscellaneous",
   "yacl3.config.themetip:config.importantSetting": "Awesomeness Detection",
-  "yacl3.config.themetip:config.importantSetting.desc": "Lets Marie know that you are really awesome!"
+  "yacl3.config.themetip:config.importantSetting.desc": "Lets Marie know that you are really awesome!\n\n(Default: True)"
 }

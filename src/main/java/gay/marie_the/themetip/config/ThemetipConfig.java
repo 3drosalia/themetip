@@ -26,31 +26,38 @@ public class ThemetipConfig {
 
     private static final String mainConfig = "colors";
 
+    private static final String basic = "basic";
     private static final String tooltipBorder = "border";
     private static final String tooltipBackground = "background";
     private static final String misc = "misc";
 
-    @AutoGen(category = mainConfig, group = tooltipBorder)
-    @ColorField(allowAlpha = true)
-    @SerialEntry
-    public static Color primaryColor = new Color(0x505000ff);
-    // 5000ff
-
-    @AutoGen(category = mainConfig, group = tooltipBorder)
+    @AutoGen(category = mainConfig, group = basic)
     @MasterTickBox(value = "secondaryColor")
     @SerialEntry
     public static boolean gradient = true;
 
+    @AutoGen(category = mainConfig, group = basic)
+    @TickBox
+    @SerialEntry
+    public static boolean thickEdges = true;
+
     @AutoGen(category = mainConfig, group = tooltipBorder)
     @ColorField(allowAlpha = true)
     @SerialEntry
-    public static Color secondaryColor = new Color(0x5028007f);
+    public static Color primaryColor = new Color(1347420415, true);
+    // 5000ff
+
+
+    @AutoGen(category = mainConfig, group = tooltipBorder)
+    @ColorField(allowAlpha = true)
+    @SerialEntry
+    public static Color secondaryColor = new Color(1344798847,true);
     // 28007f
 
     @AutoGen(category = mainConfig, group = tooltipBackground)
     @ColorField(allowAlpha = true)
     @SerialEntry
-    public static Color backgroundColor = new Color(0xFF100010);
+    public static Color backgroundColor = new Color(-267386864, true);
 
     @AutoGen(category = mainConfig, group = misc)
     @MasterTickBox(value = "importantSetting")

@@ -16,6 +16,7 @@ public class Themetip implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ThemetipConfig.HANDLER.load();
+		LOGGER.atInfo().log("themetip initialized");
 	}
 
 	public static Identifier id(String path) {
