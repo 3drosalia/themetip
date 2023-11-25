@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"sources": "https://github.com/marie0llie/themetip",
-		"Discord": "https://discord.gg/gYQKdE2ktQ"
+		"issues": "https://github.com/marie0llie/themetip/issues"
 	},
 	"license": "LGPL-3.0-only",
 	"icon": "assets/themetip/icon.png",
@@ -30,5 +30,13 @@
 		"minecraft": "1.20.*",
 		"java": ">=17",
 		"yet_another_config_lib_v3": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/gYQKdE2ktQ"
+			},
+			"update_checker": true
+		}
 	}
 }

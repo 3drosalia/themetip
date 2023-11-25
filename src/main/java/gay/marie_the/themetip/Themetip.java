@@ -7,16 +7,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Themetip implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final String MOD_ID = "themetip";
     public static final Logger LOGGER = LoggerFactory.getLogger("themetip");
+	public final String version = getClass().getPackage().getImplementationVersion();
 
 	@Override
 	public void onInitialize() {
 		ThemetipConfig.HANDLER.load();
-		LOGGER.atInfo().log("themetip initialized");
+		// if it says vers null, you're in a dev env.
+		LOGGER.atInfo().log(String.format("themetip vers %s initialized",version));
 	}
 
 	public static Identifier id(String path) {

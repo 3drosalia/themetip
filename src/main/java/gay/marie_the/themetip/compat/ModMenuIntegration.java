@@ -9,5 +9,6 @@ public class ModMenuIntegration implements ModMenuApi {
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
         Themetip.LOGGER.atInfo().log("Loading themetip config");
         return screen -> ThemetipConfig.HANDLER.generateGui().generateScreen(screen);
+
     }
 }
